@@ -23,14 +23,14 @@ To start fine-tuning, run the following script:
 ```bash
 bash run_finetuning.sh
 ```
-The script can be modified to configure different combinations of hyperparameters or change to another ViT model with different size.
+The script can be modified to configure different values of hyperparameters or change to another ViT model with different size.
 
 The demo code refers to this [blog](https://huggingface.co/blog/fine-tune-vit).
 
 
 ## Results
 
-Following are the results of the fine-tuning on different combinations of a subset of hyperparameters: ```batch_size in [8, 16, 32]``` and ```learning_rate in [0.0001, 0.0002, 0.0005]```.
+Following are the results of the fine-tuning on different combinations of values of a subset of hyperparameters: ```batch_size in [8, 16, 32]``` and ```learning_rate in [0.0001, 0.0002, 0.0005]```.
 
 Fine-tuning was done for each combination of the hyperparameters, with the average loss and accuracy of the model recorded below:
 | Batch Size | Learning Rate | Average Loss | Accuracy   |
