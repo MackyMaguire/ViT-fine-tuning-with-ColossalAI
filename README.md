@@ -50,4 +50,4 @@ Other hyperparameters were kept constant as follows:
 | ------ | ------ | ----- | ------------ | ------------ |
 | Gemini | 1      | 5     | 0.5          | 0.3          |
 
-The complete experiment logs can be found in ```logs.ipynb```.
+The complete experiment logs can be found in [logs.ipynb](https://github.com/MackyMaguire/ViT-fine-tuning-with-ColossalAI/blob/main/logs.ipynb).
