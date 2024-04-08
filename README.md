@@ -49,3 +49,5 @@ Other hyperparameters were kept constant as follows:
 | PLUGIN | GPUNUM | EPOCH | WEIGHT DECAY | WARMUP RATIO |
 | ------ | ------ | ----- | ------------ | ------------ |
 | Gemini | 1      | 5     | 0.5          | 0.3          |
+
+The complete experiment logs can be found in ```logs.ipynb```.
