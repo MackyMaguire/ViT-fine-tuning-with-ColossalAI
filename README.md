@@ -14,7 +14,7 @@ We adapt the ViT training code to ColossalAI by leveraging [Boosting API](https:
 
 ## Dataset
 
-In this example, we will be finetuning a [ViT-base](https://huggingface.co/google/vit-base-patch16-224) model on this [dataset](https://huggingface.co/datasets/beans). This dataset contains more than 8000 images of bean leaves and is for the image classification task into 3 labels: ['angular_leaf_spot', 'bean_rust', 'healthy'].
+In this example, we will be finetuning a [ViT-base](https://huggingface.co/google/vit-base-patch16-224) model on this [dataset](https://huggingface.co/datasets/beans), with more than 8000 images of bean leaves. This dataset is for image classification task and there are 3 labels: ['angular_leaf_spot', 'bean_rust', 'healthy'].
 
 
 ## Run fine-tuning
