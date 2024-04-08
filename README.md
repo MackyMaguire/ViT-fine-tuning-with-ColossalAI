@@ -26,3 +26,23 @@ You can run benchmark for ViT model by running the following script:
 bash run_benchmark.sh
 ```
 The script will test performance (throughput & peak memory usage) for each combination of hyperparameters. You can also play with this script to configure your own set of hyperparameters for testing.
+
+## Results
+
+Fine-tuning was done for each combination of the following parameters, with the average and accuracy recorded:
+| Batch Size | Learning Rate | Average Loss | Accuracy   |
+| ---------- | ------------- | ------------ | ---------- |
+| 8          | 0.0001        | 0.0426       | 0.9844     |
+| 16         | 0.0001        | 0.0493       | 0.9844     |
+| 32         | 0.0001        | **0.0172**   | **0.9922** |
+| 8          | 0.0002        | 0.0864       | 0.9688     |
+| 16         | 0.0002        | 0.0369       | 0.9844     |
+| 32         | 0.0002        | 0.0263       | 0.9844     |
+| 8          | 0.0005        | 0.0850       | 0.9688     |
+| 16         | 0.0005        | 0.0389       | 0.9844     |
+| 32         | 0.0005        | 0.0219       | **0.9922** |
+
+Other parameters were kept constant as follows:
+| PLUGIN | GPUNUM | EPOCH | WEIGHT DECAY | WARMUP RATIO |
+| ------ | ------ | ----- | ------------ | ------------ |
+| Gemini | 1      | 5     | 0.5          | 0.3          |
